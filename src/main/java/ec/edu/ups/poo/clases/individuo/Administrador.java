@@ -1,4 +1,9 @@
 package ec.edu.ups.poo.clases.individuo;
 
-public class Administrador {
+import java.util.List;
+
+public class Administrador extends Persona {
+    private List<String> cargos;
+    private List<String> responsibles;
+
 }
